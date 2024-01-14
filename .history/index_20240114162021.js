@@ -1,9 +1,8 @@
 let btn = document.querySelector('button')
 let img = document.querySelector('img')
 let checked = false
-
-//light on  and light off
-img.addEventListener('click', lightOn)
+//light on 
+btn.addEventListener('click', lightOn)
 function lightOn(){
     if(checked){
         img.src= "https://s3-us-west-2.amazonaws.com/s.cdpn.io/93927/pic_bulboff.gif"
@@ -16,3 +15,8 @@ function lightOn(){
     }
 }
 
+// // light off 
+// btn.addEventListener('click', lightOff)
+// function lightOff(){
+//     img.src= "https://s3-us-west-2.amazonaws.com/s.cdpn.io/93927/pic_bulboff.gif"
+// }

@@ -2,7 +2,7 @@ let btn = document.querySelector('button')
 let img = document.querySelector('img')
 let checked = false
 
-//light on  and light off
+//light on 
 img.addEventListener('click', lightOn)
 function lightOn(){
     if(checked){
